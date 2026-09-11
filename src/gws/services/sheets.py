@@ -421,7 +421,7 @@ class SheetsService(BaseService):
         end_col: int,
         bold: bool | None = None,
         italic: bool | None = None,
-        font_size: int | None = None,
+        font_size: float | None = None,
         background_color: str | None = None,
         foreground_color: str | None = None,
     ) -> dict[str, Any]:
@@ -553,7 +553,7 @@ class SheetsService(BaseService):
         underline: bool | None = None,
         strikethrough: bool | None = None,
         font_family: str | None = None,
-        font_size: int | None = None,
+        font_size: float | None = None,
         foreground_color: str | None = None,
         background_color: str | None = None,
         horizontal_alignment: str | None = None,
