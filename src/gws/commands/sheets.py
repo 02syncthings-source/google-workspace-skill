@@ -241,7 +241,7 @@ def format_cells(
         typer.Option("--italic/--no-italic", "-i", help="Italic formatting."),
     ] = None,
     font_size: Annotated[
-        Optional[float],
+        Optional[int],
         typer.Option("--font-size", "-s", help="Font size in points."),
     ] = None,
     background_color: Annotated[
@@ -311,7 +311,7 @@ def format_cells_extended(
         typer.Option("--font", "-f", help="Font family name."),
     ] = None,
     font_size: Annotated[
-        Optional[float],
+        Optional[int],
         typer.Option("--size", "-s", help="Font size in points."),
     ] = None,
     foreground_color: Annotated[
